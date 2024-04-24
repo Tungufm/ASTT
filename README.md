@@ -16,8 +16,15 @@ We aim to update following documents for our repo, will finish soon:
 - [ ] Dataset description
 
 ## Training
+> There are 59,186 frames for the training set and 147,005 frames for the test set in total 206,194 video frames. Notably, the training set only includes normal samples, whereas the test set consists of normal and abnormal patterns.
 
 ## Inference
+
+## Dataset description
+> UIT-ADrone dataset [1] consists of 3 different scenes captured by the complex traffic environment in Hochiminh city with 206,194 video frames (59,186 frames for the training set and 147,005 frames for the test set) in total, with size 1920 × 1080. Additionally, the dataset contains 592 training snippets and 905 testing snippets, totaling nearly 6.50 hours. The dataset has a total of 10 types of abnormal events, including crossing the road at the wrong lane, walking under the street, driving in the wrong roundabout, illegally driving on the sidewalk, illegal left turn/ turn right, illegally parking in the street, carrying bulky goods, parking on the sidewalk, driving in the opposite directions, and falling off motorcycles. In addition, the training snippets only have normal events, while testing snippets consist of both normal and unusual events. Additionally, the dataset is challenging for evaluation because of complex light conditions and camera movement. Furthermore, 63,485 ground truth annotations are provided for the testing set in the form of bounding boxes around each anomalous event in each extracted video frame, which helps evaluate the performance.
+
+## References
+[1] Tran, Tung Minh and Vu, Tu N and Nguyen, Tam V and Nguyen, Khang, “UIT-ADrone: A Novel Drone Dataset for Traffic Anomaly Detection”, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, IEEE, vol. 16, pp. 5590–5601, 2023.
 
 ## Citation
 
