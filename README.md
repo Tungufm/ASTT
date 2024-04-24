@@ -16,7 +16,7 @@ We aim to update following documents for our repo, will finish soon:
 - [ ] Dataset description
 
 ## Training
-> There are 59,186 frames for the training set and 147,005 frames for the test set in total 206,194 video frames. Notably, the training set only includes normal samples, whereas the test set consists of normal and abnormal patterns.
+> UIT-ADrone dataset includes 206,194 video frames. There are 59,186 frames for the training set and 147,005 frames for the test set. Notably, the training set only includes normal samples, whereas the test set consists of normal and abnormal patterns.
 
 ## Inference
 
